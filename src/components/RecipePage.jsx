@@ -11,10 +11,6 @@ const RecipePage = ({ foods, favorites, toggleFavorite }) => {
 
   return (
     <section className="recipe__container">
-      <div className="addToHeart" onClick={() => toggleFavorite(food)}>
-        {isFav ? <FaHeart size={35} color="red" /> : <FaRegHeart size={35} />}
-      </div>
-
       <div className="heading">
         <h1 className="recipe__title">{food.title}</h1>
       </div>
