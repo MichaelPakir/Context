@@ -1,7 +1,9 @@
 import React from "react";
 import Cards from "../components/Cards";
+import Recipes from "../helpers/Recipes";
 
 const Menu = ({ foods, favorites, toggleFavorite }) => {
+  console.log(Recipes);
   return (
     <div>
       <h1>Explore the Menu</h1>

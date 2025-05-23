@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import "../styles/create/create.css";
 import TextField from "@mui/material/TextField";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -7,8 +6,7 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import { Box } from "@mui/material";
 import { useLocation, useNavigate } from "react-router-dom";
-import { Trash2, Delete, X } from "lucide-react";
-import Sidebar from "../components/Sidebar";
+import { Trash2 } from "lucide-react";
 
 const Add = ({ setFoods, foods, fieldStyle }) => {
   const navigate = useNavigate();
